@@ -1,0 +1,29 @@
+project:
+  type: book
+  output-dir: ../../docs
+
+book:
+  title: Timing Windows Calculator
+  # subtitle: Presentation of datasets
+  author: 
+    - name: David Beauchesne
+      degrees: PhD
+    - name: Kevin Cazelles
+      degrees: PhD
+  chapters:
+    - index.qmd
+    - 1_risk_assessment.qmd
+    - 2_user_manual.qmd
+
+bibliography: [references.bib]
+csl: frontiers.csl
+
+format:
+  html:
+    theme: cosmo
+    toc-depth: 2
+
+execute:
+  echo: false
+  warning: false
+  error: false

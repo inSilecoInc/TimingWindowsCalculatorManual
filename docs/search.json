@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Timing Windows Calculator",
+    "section": "",
+    "text": "1 Introduction\nThe Timing Windows Calculator is an interactive Shiny web application designed to support the assessment and refinement of species-specific timing windows for freshwater fish in Canada. Built upon the National Timing Windows Dataset (NTWD), the application provides users with a structured framework to explore fish life stage timing, assess risks associated with works, undertaking and activities (WUA), and generate scientifically informed timing window recommendations.\nThe application serves two primary purposes:\nA key feature of the Timing Windows Calculator is its flexibility—it allows users to:\nBy combining scientific data, user input, and adaptive risk assessment methods, the Timing Windows Calculator provides a robust, decision-support tool for environmental managers, researchers, and policymakers seeking to minimize ecological disruptions while accommodating responsible resource use.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project overview</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#objectives-and-key-deliverables",
+    "href": "index.html#objectives-and-key-deliverables",
+    "title": "Timing Windows Calculator",
+    "section": "2.1 Objectives and Key Deliverables",
+    "text": "2.1 Objectives and Key Deliverables\nThe project was structured around three core objectives:\n\nDeveloping a National Timing Windows Database (NTWD)\n\nA relational SQLite database was created to integrate comprehensive life history, ecological, and phenological data for freshwater fish across Canada.\n\nIt synthesizes species-specific timing windows for spawning, migration, and early development stages, ensuring that seasonal and ecological constraints of freshwater fish are well-represented.\n\nThe database harmonizes multiple datasets, providing a structured and consistent framework for evaluating species-specific responses to environmental changes.\n\nImplementing a Risk Assessment Framework\n\nThe Timing Windows Calculator guides users through a structured risk assessment framework, ensuring that recommendations are rooted in best available data and scientific methodologies.\n\nThe tool allows users to assess and refine timing windows based on both national datasets and local ecological expertise, ensuring applicability across diverse water bodies.\n\nBuilding an Interactive Shiny Application\n\nA Shiny web application was developed to provide users with an interactive tool for exploring species-specific life stage timing, regional risk assessments, and optimal timing windows.\n\nThe application enables users to modify existing knowledge, incorporate local data, and even conduct risk assessments for waterbodies with no prior knowledge.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project overview</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#national-timing-windows-database-ntwd",
+    "href": "index.html#national-timing-windows-database-ntwd",
+    "title": "Timing Windows Calculator",
+    "section": "2.2 National Timing Windows Database (NTWD)",
+    "text": "2.2 National Timing Windows Database (NTWD)\nThe NTWD was built to consolidate and structure a wide range of datasets, ensuring that species-specific timing windows are represented with high accuracy. Key integration components included:\n\nSpecies Traits Integration: Incorporating habitat preferences, reproductive strategies, migration behavior, morphological adaptations, and physiological tolerances to assess how species respond to seasonal variations and anthropogenic stressors.\n\nPhenology Integration: Capturing the timing of biological events such as migration, spawning, and larval development to define species-specific timing windows and their ecological implications.\n\nThe NTWD is accompanied by a Research Compendium ensuring reproducibility and a technical report detailing data sources and integration process.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project overview</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#timing-windows-calculator",
+    "href": "index.html#timing-windows-calculator",
+    "title": "Timing Windows Calculator",
+    "section": "2.3 Timing Windows Calculator",
+    "text": "2.3 Timing Windows Calculator\nA Timing Windows Calculator was developed to allow users to:\n\nExplore species-specific life stage timing and optimal timing windows.\n\nConduct risk assessments for different regions based on WUA pressures (Water Use Activities).\n\nModify existing knowledge and even perform assessments without prior data by incorporating local expertise.\n\nThe application follows a structured risk assessment framework, guiding users through:\n\nEstablish Context – Define the environmental conditions for a lake or river.\n\nIdentify Risks – Assess potential threats to fish life processes and habitats.\n\nAnalyze Risks – Evaluate how these risks align with species timing windows.\n\nEvaluate Risks – Determine the potential impact on fish populations and ecosystems.\n\nTreat Risks – Develop and propose timing window adjustments as mitigation measures.\n\nThis adaptive framework ensures that scientific knowledge is directly integrated into decision-making while allowing flexibility for local conditions.\nThe application is accompanied by a technical report detailing the approach to assess risk to fish species life stages, the method used to identify optimal timing windows for interventions in aquatic ecosystems, and a user manual for the application.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Project overview</span>"
+    ]
+  },
+  {
+    "objectID": "1_risk_assessment.html",
+    "href": "1_risk_assessment.html",
+    "title": "2  Risk Assessment Framework",
+    "section": "",
+    "text": "2.1 Overview\nThe Timing Windows Calculator incorporates a structured risk assessment framework to evaluate potential ecological risks associated with works, undertaking and activities (WUA). The framework is designed to systematically assess how anthropogenic disturbances (e.g., dredging, dam operations, shoreline development) impact fish life processes across different timing windows.\nBy integrating species-specific timing windows, ecological constraints, and user-input data, the calculator helps decision-makers determine the appropriate mitigation measures to protect fish populations while balancing environmental and industrial considerations.\nThe risk assessment process follows internationally recognized environmental risk management principles (e.g., ISO 31000) and aligns with best practices in ecological risk assessment.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Risk Assessment Framework</span>"
+    ]
+  },
+  {
+    "objectID": "1_risk_assessment.html#methodology-for-assessing-risk-in-a-given-waterbody",
+    "href": "1_risk_assessment.html#methodology-for-assessing-risk-in-a-given-waterbody",
+    "title": "2  Risk Assessment Framework",
+    "section": "2.2 Methodology for Assessing Risk in a Given Waterbody",
+    "text": "2.2 Methodology for Assessing Risk in a Given Waterbody\nThe Timing Windows Calculator follows a five-step risk assessment framework, ensuring a comprehensive evaluation of risks related to fish life processes and their habitats.\n\n2.2.1 Step 1: Establish Context\nThe first step defines the ecological and environmental context of the assessment. Users input key parameters related to the waterbody and associated water use activities (WUA), including:\n\nWaterbody Characteristics: Name, geographic location, hydrological features, known ecological constraints.\n\nTarget Species: Selection of fish species known to inhabit or migrate through the waterbody.\n\nLife Processes of Interest: Spawning, rearing, migration, or refuge use.\n\nWater Use Activities (WUA): Industrial, municipal, or recreational activities that could impact fish populations.\n\nThe Timing Windows Calculator provides a default ecological profile based on national datasets, but users can modify or enhance this information with local knowledge.\n\n\n2.2.2 Step 2: Identify Risks\nIn this step, the tool identifies potential stressors and pressures that could interfere with critical fish life processes. The assessment considers:\n\n\n2.2.3 Step 3: Analyze & Evaluate Risks\nRisk methodology\n\n\n2.2.4 Step 5: Treat Risks\nTiming Windows scores",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Risk Assessment Framework</span>"
+    ]
+  },
+  {
+    "objectID": "1_risk_assessment.html#output-and-decision-support-tools",
+    "href": "1_risk_assessment.html#output-and-decision-support-tools",
+    "title": "2  Risk Assessment Framework",
+    "section": "2.3 Output and Decision-Support Tools",
+    "text": "2.3 Output and Decision-Support Tools\nAt the end of the assessment, users receive a comprehensive risk report summarizing:\n\nIdentified risks and their ecological implications.\n\nSpecies-specific timing constraints and vulnerabilities.\n\nRecommended mitigation measures and ideal timing windows.\n\nReports can be exported for regulatory submissions, stakeholder consultations, or further analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Risk Assessment Framework</span>"
+    ]
+  }
+]

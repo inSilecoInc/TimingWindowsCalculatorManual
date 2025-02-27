@@ -1,0 +1,50 @@
+---
+title: "Risk Assessment Framework"
+---
+
+## Overview  
+
+The Timing Windows Calculator incorporates a structured risk assessment framework to evaluate potential ecological risks associated with works, undertaking and activities (WUA). The framework is designed to systematically assess how anthropogenic disturbances (e.g., dredging, dam operations, shoreline development) impact fish life processes across different timing windows.  
+
+By integrating species-specific timing windows, ecological constraints, and user-input data, the calculator helps decision-makers determine the appropriate mitigation measures to protect fish populations while balancing environmental and industrial considerations.  
+
+The risk assessment process follows internationally recognized environmental risk management principles (e.g., ISO 31000) and aligns with best practices in ecological risk assessment.  
+
+## Methodology for Assessing Risk in a Given Waterbody  
+
+The Timing Windows Calculator follows a five-step risk assessment framework, ensuring a comprehensive evaluation of risks related to fish life processes and their habitats.  
+
+### Step 1: Establish Context  
+
+The first step defines the ecological and environmental context of the assessment. Users input key parameters related to the waterbody and associated water use activities (WUA), including:  
+
+- Waterbody Characteristics: Name, geographic location, hydrological features, known ecological constraints.  
+- Target Species: Selection of fish species known to inhabit or migrate through the waterbody.  
+- Life Processes of Interest: Spawning, rearing, migration, or refuge use.  
+- Water Use Activities (WUA): Industrial, municipal, or recreational activities that could impact fish populations.  
+
+The Timing Windows Calculator provides a default ecological profile based on national datasets, but users can modify or enhance this information with local knowledge.  
+
+### Step 2: Identify Risks 
+
+In this step, the tool identifies potential stressors and pressures that could interfere with critical fish life processes. The assessment considers:  
+
+
+### Step 3: Analyze & Evaluate Risks  
+
+Risk methodology
+
+### Step 5: Treat Risks 
+
+Timing Windows scores
+
+## Output and Decision-Support Tools  
+
+At the end of the assessment, users receive a comprehensive risk report summarizing:  
+
+- Identified risks and their ecological implications.  
+- Species-specific timing constraints and vulnerabilities.  
+- Recommended mitigation measures and ideal timing windows.  
+
+Reports can be exported for regulatory submissions, stakeholder consultations, or further analysis.  
+
