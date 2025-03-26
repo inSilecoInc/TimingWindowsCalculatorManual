@@ -1,3 +1,12 @@
 ---
 title: "User Manual"
 ---
+
+
+# tl;dr
+
+If consulting the manual feels cumbersome, you may use the Wizard button to initiate a guided tour of the app. The tour begins with the selection of a specific lake and then leads you through the various sections of the application.
+
+
+# Starting with the application
+
