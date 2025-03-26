@@ -68,5 +68,35 @@
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Risk Assessment Framework</span>"
     ]
+  },
+  {
+    "objectID": "2_user_manual.html",
+    "href": "2_user_manual.html",
+    "title": "3  User Manual",
+    "section": "",
+    "text": "3.1 tl;dr: the wizard\nIf consulting the manual feels cumbersome, you may use the ‘Wizard’ button to initiate a guided tour of the app. The tour begins with the selection of a lake Nipissing and then leads you through the various sections of the application. Use the Previous and Next buttons (shown below) to navigate through the tour. To exit the tour at any time, press the Esc key.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
+    "objectID": "2_user_manual.html#tldr-the-wizard",
+    "href": "2_user_manual.html#tldr-the-wizard",
+    "title": "3  User Manual",
+    "section": "",
+    "text": "To use the wizard, click the Wizard button (top image). This will launch a complete step-by-step tour of the app (bottom image).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
+    "objectID": "2_user_manual.html#starting-with-the-application",
+    "href": "2_user_manual.html#starting-with-the-application",
+    "title": "3  User Manual",
+    "section": "3.2 Starting with the application",
+    "text": "3.2 Starting with the application",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
   }
 ]

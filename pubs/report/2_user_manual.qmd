@@ -3,10 +3,13 @@ title: "User Manual"
 ---
 
 
-# tl;dr
+## tl;dr: the wizard
 
-If consulting the manual feels cumbersome, you may use the Wizard button to initiate a guided tour of the app. The tour begins with the selection of a specific lake and then leads you through the various sections of the application.
+If consulting the manual feels cumbersome, you may use the 'Wizard' button to initiate a guided tour of the app. The tour begins with the selection of a lake Nipissing and then leads you through the various sections of the application. Use the `Previous` and `Next` buttons (shown below) to navigate through the tour. To exit the tour at any time, press the `Esc` key.
+
+![To use the wizard, click the Wizard button (top image). This will launch a complete step-by-step tour of the app (bottom image).](img/wizard1.png)
 
 
-# Starting with the application
+## Starting with the application
+
 
