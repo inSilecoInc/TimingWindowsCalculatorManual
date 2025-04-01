@@ -49,14 +49,17 @@ When the application starts, the page you see includes four key components of th
 
 The first section allows the user to define the **context** in which the impact of a timing window is being investigated. It includes three main components:
 
-- **Selection**: Users can choose from three selection types — **Lakes**, **Rivers**, or **Drop a Pin on the Map**. Once a type is selected, the map on the right will update accordingly and become interactive.
+1. **Selection**
+   Users can choose from three selection types — **Lakes**, **Rivers**, or **Drop a Pin on the Map**. Once a type is selected, the map on the right will update accordingly and become interactive.
 
-- **Map**: The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the **province**, which is used to pre-fill the status quo field in the final section.
+2. **Map**
+   The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the **province**, which is used to pre-fill the status quo field in the final section.
 
-- **Output**: A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure 'Examples of Waterbody Selection Types').
+3. **Output**
+   A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure 'Examples of Waterbody Selection Types').
 
 
-![**Waterbody selection.** 1. Selection; 2. Map; 3. Output.](img/wb_slc.png)
+![**Section 'Waterbody selection'.** 1. Selection; 2. Map; 3. Output.](img/wb_slc.png)
 
 
 This first section serves as the entry point to the Timing Windows Calculator. It allows users to select lakes or rivers for which fish species have been recorded; these species will be loaded in the next section.
@@ -81,21 +84,87 @@ Finally, at the bottom left of the section, there are two buttons:
 ## Species selection 
 
 
-## Adding / Removing species 
+The second section is used to build a list of **species of interest** for computing timing window scores. After selecting a waterbody, an initial list of species is proposed. The interface then allows users to tailor the list of species and specify which **life processes** to consider.
+
+1. **Left Panel**  
+   On the left, a species can be selected from a dropdown menu and added to the list by clicking the **"Add Species"** button. The life processes to consider can be specified using the **"Life Process Options"** accordion.
+
+2. **Species Cards**  
+   The selected species are displayed as a list of cards. Each card contains basic information about the species (see Figure XX). A trash icon in the top-right corner of each card allows users to remove that species from the list.
+
+3. **Life Processes Table**  
+   This table shows the date ranges for each life process being considered. Entries are drawn from the literature. If no data are available for a given species and process, a default row is added with the full-year range (January 1 to December 31). The table is editable (see Figure XX).
 
 
-## Species cards 
+![**Section 'Species selection'** 1. Left Panel; 2. Species Cards; 3. Life Processes Table.](img/spc_slc1.png)
+
+Here's a cleaned-up and more readable version of your paragraph with correct grammar, consistent formatting, and improved flow:
+
+---
+
+For each species selected, a **card** is generated using information drawn from online databases—primarily [FishBase](https://fishbase.se/search.php) and the [Ontario Freshwater Fishes Life History Database](https://www.ontariofishes.ca/).
+
+Each card includes two elements:
+
+1. **Card Header**  
+   The header displays the Latin name of the species, followed by up to four icons and a trash icon on the right to remove the species from the list.
+
+   The four context icons are as follows:
+   - **Selection Source**:  
+     - 🖐️ A hand icon if the species was manually selected.  
+     - 👁️ An eye icon if the species was observed.  
+     - ⚙️ A gear icon if the species was not observed directly but is known to occur within the watershed.  
+   - **Commercial Status**:  
+     - 💲 A dollar icon is shown if the species is considered commercial.  
+   - **Conservation Status**:  
+     - Displays codes like **VU** (vulnerable) or **EN** (endangered), if applicable.  
+   - **Image Availability**:  
+     - 📷 An icon appears if a species image is available—clicking it opens the image.
+
+2. **Card Body**  
+   The body of the card contains an accordion with three sections:
+   - **Taxonomy**: Basic taxonomic information.  
+   - **Morphology**: Key morphological traits.  
+   - **Food Items**: Dietary information based on observed feeding behavior.
 
 
-## Life process tables 
+Let me know if you'd like to show icon tooltips or provide examples in a figure!
+![**Species cards** The left panl shows 
+ details for *Acipenser brevirostrum* with its 1. **Card Header** and its 2. 
+**Card Body**. The 2 cards on the right shows the icon fr a species that has not been observed but is present in the watershed (top) and a card of a species that has been manually added (bottom)](img/spc_slc2.png)
+
+
+
+The bottom part of this section allows users to **select and edit life process date ranges**. To do so, follow these steps:
+
+1. Select the tab corresponding to the life process you want to edit.  
+2. Click on the row you wish to modify.  
+3. Edit or remove the life process dates as needed.  
+4. Optionally, you can download the table as a CSV file.
+
+
+![**Life Processes Table** 1. select a tab; 2. select a row; 3. edit; 4. download.](img/spc_slc3.png)
+
 
 
 
 ## WUA selection 
 
-Currently set to 1. editable.
+
+The **WUA (Works Undertaking and Activities) selection** includes the following components:
+
+1. **WUA and Stressor Selection**  
+   Users select one or more **Water Use Activities (WUAs)**, each associated with one or more **stressors**. These stressors are linked to species sensitivity and are used in the timing windows scoring process.
+
+2. **WUA Table**  
+This editable table links life processes and stressors, and functions similarly to the life process table. Users can adjust the stressor values for each life process–stressor combination (**3**). The table can also be downloaded as a CSV file (**4**).
+
+::: {.callout-warning}
+Currently, we have not identified many quantitative values for species sensitivity to specific stressors. As a result, all sensitivity values are initially set to 1 by default. However, the table is fully functional and can be used to manually adjust and weight the contribution of each stressor to the final timing window scores.
+:::
 
 
+![**WUA Table** 1. select a tab; 2. select a row; 3. edit; 4. download.](img/wua_slc1.png)
 
 ## Calculator  
 

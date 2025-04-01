@@ -104,7 +104,7 @@
     "href": "2_user_manual.html#waterbody-selection",
     "title": "3  User Manual",
     "section": "3.3 Waterbody selection",
-    "text": "3.3 Waterbody selection\nThe first section allows the user to define the context in which the impact of a timing window is being investigated. It includes three main components:\n\nSelection: Users can choose from three selection types — Lakes, Rivers, or Drop a Pin on the Map. Once a type is selected, the map on the right will update accordingly and become interactive.\nMap: The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the province, which is used to pre-fill the status quo field in the final section.\nOutput: A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure ‘Examples of Waterbody Selection Types’).\n\n\n\n\nWaterbody selection. 1. Selection; 2. Map; 3. Output.\n\n\nThis first section serves as the entry point to the Timing Windows Calculator. It allows users to select lakes or rivers for which fish species have been recorded; these species will be loaded in the next section.\nNote that the “Selection Options” accordion can be used to limit the number of species pre-filled in the next step. This is especially useful for lakes where a large number of species have been documented.\n\n\n\n\n\n\nNote\n\n\n\nLight gray markers represent waterbodies where fish species have been observed, while dark gray markers indicate waterbodies with no direct species observations. For these, species are inferred based on presence within the surrounding watershed. If a point is used, species will be manually added (see next section).\n\n\nFinally, at the bottom left of the section, there are two buttons:\n* “Clear Selection”: Removes the current selection.\n* “Reset View”: Resets the map view to display all of Canada.\n\n\n\nExamples of waterbody selection types. From left to right: selection of a lake, a river, and a manually dropped point. The point selection view on the right also includes the “Clear Selection” and “Reset View” buttons.",
+    "text": "3.3 Waterbody selection\nThe first section allows the user to define the context in which the impact of a timing window is being investigated. It includes three main components:\n\nSelection Users can choose from three selection types — Lakes, Rivers, or Drop a Pin on the Map. Once a type is selected, the map on the right will update accordingly and become interactive.\nMap The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the province, which is used to pre-fill the status quo field in the final section.\nOutput A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure ‘Examples of Waterbody Selection Types’).\n\n\n\n\nSection ‘Waterbody selection’. 1. Selection; 2. Map; 3. Output.\n\n\nThis first section serves as the entry point to the Timing Windows Calculator. It allows users to select lakes or rivers for which fish species have been recorded; these species will be loaded in the next section.\nNote that the “Selection Options” accordion can be used to limit the number of species pre-filled in the next step. This is especially useful for lakes where a large number of species have been documented.\n\n\n\n\n\n\nNote\n\n\n\nLight gray markers represent waterbodies where fish species have been observed, while dark gray markers indicate waterbodies with no direct species observations. For these, species are inferred based on presence within the surrounding watershed. If a point is used, species will be manually added (see next section).\n\n\nFinally, at the bottom left of the section, there are two buttons:\n* “Clear Selection”: Removes the current selection.\n* “Reset View”: Resets the map view to display all of Canada.\n\n\n\nExamples of waterbody selection types. From left to right: selection of a lake, a river, and a manually dropped point. The point selection view on the right also includes the “Clear Selection” and “Reset View” buttons.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]
@@ -114,37 +114,7 @@
     "href": "2_user_manual.html#species-selection",
     "title": "3  User Manual",
     "section": "3.4 Species selection",
-    "text": "3.4 Species selection",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
-    ]
-  },
-  {
-    "objectID": "2_user_manual.html#adding-removing-species",
-    "href": "2_user_manual.html#adding-removing-species",
-    "title": "3  User Manual",
-    "section": "3.5 Adding / Removing species",
-    "text": "3.5 Adding / Removing species",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
-    ]
-  },
-  {
-    "objectID": "2_user_manual.html#species-cards",
-    "href": "2_user_manual.html#species-cards",
-    "title": "3  User Manual",
-    "section": "3.6 Species cards",
-    "text": "3.6 Species cards",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
-    ]
-  },
-  {
-    "objectID": "2_user_manual.html#life-process-tables",
-    "href": "2_user_manual.html#life-process-tables",
-    "title": "3  User Manual",
-    "section": "3.7 Life process tables",
-    "text": "3.7 Life process tables",
+    "text": "3.4 Species selection\nThe second section is used to build a list of species of interest for computing timing window scores. After selecting a waterbody, an initial list of species is proposed. The interface then allows users to tailor the list of species and specify which life processes to consider.\n\nLeft Panel\nOn the left, a species can be selected from a dropdown menu and added to the list by clicking the “Add Species” button. The life processes to consider can be specified using the “Life Process Options” accordion.\nSpecies Cards\nThe selected species are displayed as a list of cards. Each card contains basic information about the species (see Figure XX). A trash icon in the top-right corner of each card allows users to remove that species from the list.\nLife Processes Table\nThis table shows the date ranges for each life process being considered. Entries are drawn from the literature. If no data are available for a given species and process, a default row is added with the full-year range (January 1 to December 31). The table is editable (see Figure XX).\n\n\n\n\nSection ‘Species selection’ 1. Left Panel; 2. Species Cards; 3. Life Processes Table.\n\n\nHere’s a cleaned-up and more readable version of your paragraph with correct grammar, consistent formatting, and improved flow:\n\nFor each species selected, a card is generated using information drawn from online databases—primarily FishBase and the Ontario Freshwater Fishes Life History Database.\nEach card includes two elements:\n\nCard Header\nThe header displays the Latin name of the species, followed by up to four icons and a trash icon on the right to remove the species from the list.\nThe four context icons are as follows:\n\nSelection Source:\n\n🖐️ A hand icon if the species was manually selected.\n\n👁️ An eye icon if the species was observed.\n\n⚙️ A gear icon if the species was not observed directly but is known to occur within the watershed.\n\n\nCommercial Status:\n\n💲 A dollar icon is shown if the species is considered commercial.\n\n\nConservation Status:\n\nDisplays codes like VU (vulnerable) or EN (endangered), if applicable.\n\n\nImage Availability:\n\n📷 An icon appears if a species image is available—clicking it opens the image.\n\n\nCard Body\nThe body of the card contains an accordion with three sections:\n\nTaxonomy: Basic taxonomic information.\n\nMorphology: Key morphological traits.\n\nFood Items: Dietary information based on observed feeding behavior.\n\n\nLet me know if you’d like to show icon tooltips or provide examples in a figure! \nThe bottom part of this section allows users to select and edit life process date ranges. To do so, follow these steps:\n\nSelect the tab corresponding to the life process you want to edit.\n\nClick on the row you wish to modify.\n\nEdit or remove the life process dates as needed.\n\nOptionally, you can download the table as a CSV file.\n\n\n\n\nLife Processes Table 1. select a tab; 2. select a row; 3. edit; 4. download.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]
@@ -153,8 +123,8 @@
     "objectID": "2_user_manual.html#wua-selection",
     "href": "2_user_manual.html#wua-selection",
     "title": "3  User Manual",
-    "section": "3.8 WUA selection",
-    "text": "3.8 WUA selection\nCurrently set to 1. editable.",
+    "section": "3.5 WUA selection",
+    "text": "3.5 WUA selection\nThe WUA (Works Undertaking and Activities) selection includes the following components:\n\nWUA and Stressor Selection\nUsers select one or more Water Use Activities (WUAs), each associated with one or more stressors. These stressors are linked to species sensitivity and are used in the timing windows scoring process.\nWUA Table\nThis editable table links life processes and stressors, and functions similarly to the life process table. Users can adjust the stressor values for each life process–stressor combination (3). The table can also be downloaded as a CSV file (4).\n\n\n\n\n\n\n\nWarning\n\n\n\nCurrently, we have not identified many quantitative values for species sensitivity to specific stressors. As a result, all sensitivity values are initially set to 1 by default. However, the table is fully functional and can be used to manually adjust and weight the contribution of each stressor to the final timing window scores.\n\n\n\n\n\nWUA Table 1. select a tab; 2. select a row; 3. edit; 4. download.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]
@@ -163,8 +133,8 @@
     "objectID": "2_user_manual.html#calculator",
     "href": "2_user_manual.html#calculator",
     "title": "3  User Manual",
-    "section": "3.9 Calculator",
-    "text": "3.9 Calculator\n\n3.9.1 Scores\n\n\n3.9.2 Options",
+    "section": "3.6 Calculator",
+    "text": "3.6 Calculator\n\n3.6.1 Scores\n\n\n3.6.2 Options",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]

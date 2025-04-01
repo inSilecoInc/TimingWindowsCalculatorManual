@@ -137,11 +137,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#starting-with-the-application" id="toc-starting-with-the-application" class="nav-link" data-scroll-target="#starting-with-the-application"><span class="header-section-number">3.2</span> Starting with the application</a></li>
   <li><a href="#waterbody-selection" id="toc-waterbody-selection" class="nav-link" data-scroll-target="#waterbody-selection"><span class="header-section-number">3.3</span> Waterbody selection</a></li>
   <li><a href="#species-selection" id="toc-species-selection" class="nav-link" data-scroll-target="#species-selection"><span class="header-section-number">3.4</span> Species selection</a></li>
-  <li><a href="#adding-removing-species" id="toc-adding-removing-species" class="nav-link" data-scroll-target="#adding-removing-species"><span class="header-section-number">3.5</span> Adding / Removing species</a></li>
-  <li><a href="#species-cards" id="toc-species-cards" class="nav-link" data-scroll-target="#species-cards"><span class="header-section-number">3.6</span> Species cards</a></li>
-  <li><a href="#life-process-tables" id="toc-life-process-tables" class="nav-link" data-scroll-target="#life-process-tables"><span class="header-section-number">3.7</span> Life process tables</a></li>
-  <li><a href="#wua-selection" id="toc-wua-selection" class="nav-link" data-scroll-target="#wua-selection"><span class="header-section-number">3.8</span> WUA selection</a></li>
-  <li><a href="#calculator" id="toc-calculator" class="nav-link" data-scroll-target="#calculator"><span class="header-section-number">3.9</span> Calculator</a></li>
+  <li><a href="#wua-selection" id="toc-wua-selection" class="nav-link" data-scroll-target="#wua-selection"><span class="header-section-number">3.5</span> WUA selection</a></li>
+  <li><a href="#calculator" id="toc-calculator" class="nav-link" data-scroll-target="#calculator"><span class="header-section-number">3.6</span> Calculator</a></li>
   </ul>
 </nav>
     </div>
@@ -229,15 +226,15 @@ The right panel displays the main outputs and allows users to refine their selec
 <section id="waterbody-selection" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="waterbody-selection"><span class="header-section-number">3.3</span> Waterbody selection</h2>
 <p>The first section allows the user to define the <strong>context</strong> in which the impact of a timing window is being investigated. It includes three main components:</p>
-<ul>
-<li><p><strong>Selection</strong>: Users can choose from three selection types — <strong>Lakes</strong>, <strong>Rivers</strong>, or <strong>Drop a Pin on the Map</strong>. Once a type is selected, the map on the right will update accordingly and become interactive.</p></li>
-<li><p><strong>Map</strong>: The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the <strong>province</strong>, which is used to pre-fill the status quo field in the final section.</p></li>
-<li><p><strong>Output</strong>: A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure ‘Examples of Waterbody Selection Types’).</p></li>
-</ul>
+<ol type="1">
+<li><p><strong>Selection</strong> Users can choose from three selection types — <strong>Lakes</strong>, <strong>Rivers</strong>, or <strong>Drop a Pin on the Map</strong>. Once a type is selected, the map on the right will update accordingly and become interactive.</p></li>
+<li><p><strong>Map</strong> The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the <strong>province</strong>, which is used to pre-fill the status quo field in the final section.</p></li>
+<li><p><strong>Output</strong> A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure ‘Examples of Waterbody Selection Types’).</p></li>
+</ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/wb_slc.png" class="img-fluid figure-img"></p>
-<figcaption><strong>Waterbody selection.</strong> 1. Selection; 2. Map; 3. Output.</figcaption>
+<figcaption><strong>Section ‘Waterbody selection’.</strong> 1. Selection; 2. Map; 3. Output.</figcaption>
 </figure>
 </div>
 <p>This first section serves as the entry point to the Timing Windows Calculator. It allows users to select lakes or rivers for which fish species have been recorded; these species will be loaded in the next section.</p>
@@ -267,27 +264,118 @@ Note
 </section>
 <section id="species-selection" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="species-selection"><span class="header-section-number">3.4</span> Species selection</h2>
+<p>The second section is used to build a list of <strong>species of interest</strong> for computing timing window scores. After selecting a waterbody, an initial list of species is proposed. The interface then allows users to tailor the list of species and specify which <strong>life processes</strong> to consider.</p>
+<ol type="1">
+<li><p><strong>Left Panel</strong><br>
+On the left, a species can be selected from a dropdown menu and added to the list by clicking the <strong>“Add Species”</strong> button. The life processes to consider can be specified using the <strong>“Life Process Options”</strong> accordion.</p></li>
+<li><p><strong>Species Cards</strong><br>
+The selected species are displayed as a list of cards. Each card contains basic information about the species (see Figure XX). A trash icon in the top-right corner of each card allows users to remove that species from the list.</p></li>
+<li><p><strong>Life Processes Table</strong><br>
+This table shows the date ranges for each life process being considered. Entries are drawn from the literature. If no data are available for a given species and process, a default row is added with the full-year range (January 1 to December 31). The table is editable (see Figure XX).</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/spc_slc1.png" class="img-fluid figure-img"></p>
+<figcaption><strong>Section ‘Species selection’</strong> 1. Left Panel; 2. Species Cards; 3. Life Processes Table.</figcaption>
+</figure>
+</div>
+<p>Here’s a cleaned-up and more readable version of your paragraph with correct grammar, consistent formatting, and improved flow:</p>
+<hr>
+<p>For each species selected, a <strong>card</strong> is generated using information drawn from online databases—primarily <a href="https://fishbase.se/search.php">FishBase</a> and the <a href="https://www.ontariofishes.ca/">Ontario Freshwater Fishes Life History Database</a>.</p>
+<p>Each card includes two elements:</p>
+<ol type="1">
+<li><p><strong>Card Header</strong><br>
+The header displays the Latin name of the species, followed by up to four icons and a trash icon on the right to remove the species from the list.</p>
+<p>The four context icons are as follows:</p>
+<ul>
+<li><strong>Selection Source</strong>:
+<ul>
+<li>🖐️ A hand icon if the species was manually selected.<br>
+</li>
+<li>👁️ An eye icon if the species was observed.<br>
+</li>
+<li>⚙️ A gear icon if the species was not observed directly but is known to occur within the watershed.<br>
+</li>
+</ul></li>
+<li><strong>Commercial Status</strong>:
+<ul>
+<li>💲 A dollar icon is shown if the species is considered commercial.<br>
+</li>
+</ul></li>
+<li><strong>Conservation Status</strong>:
+<ul>
+<li>Displays codes like <strong>VU</strong> (vulnerable) or <strong>EN</strong> (endangered), if applicable.<br>
+</li>
+</ul></li>
+<li><strong>Image Availability</strong>:
+<ul>
+<li>📷 An icon appears if a species image is available—clicking it opens the image.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Card Body</strong><br>
+The body of the card contains an accordion with three sections:</p>
+<ul>
+<li><strong>Taxonomy</strong>: Basic taxonomic information.<br>
+</li>
+<li><strong>Morphology</strong>: Key morphological traits.<br>
+</li>
+<li><strong>Food Items</strong>: Dietary information based on observed feeding behavior.</li>
+</ul></li>
+</ol>
+<p>Let me know if you’d like to show icon tooltips or provide examples in a figure! <img src="img/spc_slc2.png" class="img-fluid" alt="Species cards The left panl shows details for Acipenser brevirostrum with its 1. Card Header and its 2. Card Body. The 2 cards on the right shows the icon fr a species that has not been observed but is present in the watershed (top) and a card of a species that has been manually added (bottom)"></p>
+<p>The bottom part of this section allows users to <strong>select and edit life process date ranges</strong>. To do so, follow these steps:</p>
+<ol type="1">
+<li>Select the tab corresponding to the life process you want to edit.<br>
+</li>
+<li>Click on the row you wish to modify.<br>
+</li>
+<li>Edit or remove the life process dates as needed.<br>
+</li>
+<li>Optionally, you can download the table as a CSV file.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/spc_slc3.png" class="img-fluid figure-img"></p>
+<figcaption><strong>Life Processes Table</strong> 1. select a tab; 2. select a row; 3. edit; 4. download.</figcaption>
+</figure>
+</div>
 </section>
-<section id="adding-removing-species" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="adding-removing-species"><span class="header-section-number">3.5</span> Adding / Removing species</h2>
+<section id="wua-selection" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="wua-selection"><span class="header-section-number">3.5</span> WUA selection</h2>
+<p>The <strong>WUA (Works Undertaking and Activities) selection</strong> includes the following components:</p>
+<ol type="1">
+<li><p><strong>WUA and Stressor Selection</strong><br>
+Users select one or more <strong>Water Use Activities (WUAs)</strong>, each associated with one or more <strong>stressors</strong>. These stressors are linked to species sensitivity and are used in the timing windows scoring process.</p></li>
+<li><p><strong>WUA Table</strong><br>
+This editable table links life processes and stressors, and functions similarly to the life process table. Users can adjust the stressor values for each life process–stressor combination (<strong>3</strong>). The table can also be downloaded as a CSV file (<strong>4</strong>).</p></li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Currently, we have not identified many quantitative values for species sensitivity to specific stressors. As a result, all sensitivity values are initially set to 1 by default. However, the table is fully functional and can be used to manually adjust and weight the contribution of each stressor to the final timing window scores.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/wua_slc1.png" class="img-fluid figure-img"></p>
+<figcaption><strong>WUA Table</strong> 1. select a tab; 2. select a row; 3. edit; 4. download.</figcaption>
+</figure>
+</div>
 </section>
-<section id="species-cards" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="species-cards"><span class="header-section-number">3.6</span> Species cards</h2>
+<section id="calculator" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="calculator"><span class="header-section-number">3.6</span> Calculator</h2>
+<section id="scores" class="level3" data-number="3.6.1">
+<h3 data-number="3.6.1" class="anchored" data-anchor-id="scores"><span class="header-section-number">3.6.1</span> Scores</h3>
 </section>
-<section id="life-process-tables" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="life-process-tables"><span class="header-section-number">3.7</span> Life process tables</h2>
-</section>
-<section id="wua-selection" class="level2" data-number="3.8">
-<h2 data-number="3.8" class="anchored" data-anchor-id="wua-selection"><span class="header-section-number">3.8</span> WUA selection</h2>
-<p>Currently set to 1. editable.</p>
-</section>
-<section id="calculator" class="level2" data-number="3.9">
-<h2 data-number="3.9" class="anchored" data-anchor-id="calculator"><span class="header-section-number">3.9</span> Calculator</h2>
-<section id="scores" class="level3" data-number="3.9.1">
-<h3 data-number="3.9.1" class="anchored" data-anchor-id="scores"><span class="header-section-number">3.9.1</span> Scores</h3>
-</section>
-<section id="options" class="level3" data-number="3.9.2">
-<h3 data-number="3.9.2" class="anchored" data-anchor-id="options"><span class="header-section-number">3.9.2</span> Options</h3>
+<section id="options" class="level3" data-number="3.6.2">
+<h3 data-number="3.6.2" class="anchored" data-anchor-id="options"><span class="header-section-number">3.6.2</span> Options</h3>
 
 
 </section>
