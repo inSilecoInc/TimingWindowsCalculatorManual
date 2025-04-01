@@ -94,7 +94,47 @@
     "href": "2_user_manual.html#starting-with-the-application",
     "title": "3  User Manual",
     "section": "3.2 Starting with the application",
-    "text": "3.2 Starting with the application",
+    "text": "3.2 Starting with the application\nWhen you start the application, a disclaimer will appear. After reading it, check the “OK” box to proceed to the main page of the app. The interface will look similar to the figure below.\n\n\n\n\n\n\nNote\n\n\n\nNote: The application is designed for use on computers with relatively large screens. It has not been optimized for smaller devices or media.\n\n\nThe main page of the application is divided into four interactive sections, each corresponding to a step in the workflow. At startup, only the first section is visible. The remaining three sections will become available after selecting a waterbody.\nWhen the application starts, the page you see includes four key components of the interface.\n\nNavigation Bar\nThe sticky navigation bar contains three links:\n\nHome: Directs to the main page, which includes the core application.\n\nAbout: Provides information about the project.\n\nDocumentation: Contains both the database documentation and this user manual.\n\nTop-Right Buttons\nLocated at the top-right of the navigation bar:\n\nScroll-to-top and scroll-to-bottom buttons for quick navigation.\n\nA button to launch the setup wizard (as described in the previous section).\n\nA Bookmark button (rightmost), which allows users to save the current state of the app. This feature is especially useful for developers when reporting or debugging issues.\n\nLeft Panel\nEach of the four sections of the application includes a left panel with input options for selection and computation. In the first section, this panel also includes a preview of the selected waterbody’s shape.\nRight Panel\nThe right panel displays the main outputs and allows users to refine their selections based on the displayed results.\n\n\n\n\nMain page at startup. 1. Navigation Bar; 2. Top-Right Buttons; 3. Left Panel; Right Panel.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
+    "objectID": "2_user_manual.html#water-body-selection",
+    "href": "2_user_manual.html#water-body-selection",
+    "title": "3  User Manual",
+    "section": "3.3 Water body selection",
+    "text": "3.3 Water body selection\nOn the left you see the current section ‘Waterbody’ selection. This section is the first of the fourth section you will navihat througr. It\n\n3.3.1 Lake\n\n\n3.3.2 River\n\n\n3.3.3 Pin",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
+    "objectID": "2_user_manual.html#species-selection",
+    "href": "2_user_manual.html#species-selection",
+    "title": "3  User Manual",
+    "section": "3.4 Species selection",
+    "text": "3.4 Species selection",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
+    "objectID": "2_user_manual.html#wua-selection",
+    "href": "2_user_manual.html#wua-selection",
+    "title": "3  User Manual",
+    "section": "3.5 WUA selection",
+    "text": "3.5 WUA selection",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
+    "objectID": "2_user_manual.html#calculator",
+    "href": "2_user_manual.html#calculator",
+    "title": "3  User Manual",
+    "section": "3.6 Calculator",
+    "text": "3.6 Calculator",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]

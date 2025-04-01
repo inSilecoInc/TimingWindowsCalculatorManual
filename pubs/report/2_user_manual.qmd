@@ -12,4 +12,59 @@ If consulting the manual feels cumbersome, you may use the 'Wizard' button to in
 
 ## Starting with the application
 
+When you start the application, a disclaimer will appear. After reading it, check the "OK" box to proceed to the main page of the app. The interface will look similar to the figure below.
 
+::: {.callout-note}
+Note: The application is designed for use on computers with relatively large screens. It has not been optimized for smaller devices or media.
+:::
+
+The main page of the application is divided into four interactive sections, each corresponding to a step in the workflow. At startup, only the first section is visible. The remaining three sections will become available after selecting a waterbody.
+
+When the application starts, the page you see includes four key components of the interface.
+
+1. **Navigation Bar**  
+   The sticky navigation bar contains three links:  
+   - **Home**: Directs to the main page, which includes the core application.  
+   - **About**: Provides information about the project.  
+   - **Documentation**: Contains both the database documentation and this user manual.
+
+2. **Top-Right Buttons**  
+   Located at the top-right of the navigation bar:  
+   - Scroll-to-top and scroll-to-bottom buttons for quick navigation.  
+   - A button to launch the setup wizard (as described in the previous section).  
+   - A Bookmark button (rightmost), which allows users to save the current state of the app. This feature is especially useful for developers when reporting or debugging issues.
+
+3. **Left Panel**  
+   Each of the four sections of the application includes a left panel with input options for selection and computation. In the first section, this panel also includes a preview of the selected waterbody's shape.
+
+4. **Right Panel**  
+   The right panel displays the main outputs and allows users to refine their selections based on the displayed results.
+
+
+
+![Main page at startup. 1. Navigation Bar; 2. Top-Right Buttons; 3. Left Panel; Right Panel.](img/start1.png)
+
+
+
+## Water body selection 
+
+
+On the left you see the current section 'Waterbody' selection. This section is the first of the fourth section you will navihat througr. It 
+
+
+### Lake 
+
+
+### River 
+
+
+### Pin 
+
+
+
+## Species selection 
+
+## WUA selection 
+
+
+## Calculator  
