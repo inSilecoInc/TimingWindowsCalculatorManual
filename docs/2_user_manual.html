@@ -135,10 +135,13 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#tldr-the-wizard" id="toc-tldr-the-wizard" class="nav-link active" data-scroll-target="#tldr-the-wizard"><span class="header-section-number">3.1</span> tl;dr: the wizard</a></li>
   <li><a href="#starting-with-the-application" id="toc-starting-with-the-application" class="nav-link" data-scroll-target="#starting-with-the-application"><span class="header-section-number">3.2</span> Starting with the application</a></li>
-  <li><a href="#water-body-selection" id="toc-water-body-selection" class="nav-link" data-scroll-target="#water-body-selection"><span class="header-section-number">3.3</span> Water body selection</a></li>
+  <li><a href="#waterbody-selection" id="toc-waterbody-selection" class="nav-link" data-scroll-target="#waterbody-selection"><span class="header-section-number">3.3</span> Waterbody selection</a></li>
   <li><a href="#species-selection" id="toc-species-selection" class="nav-link" data-scroll-target="#species-selection"><span class="header-section-number">3.4</span> Species selection</a></li>
-  <li><a href="#wua-selection" id="toc-wua-selection" class="nav-link" data-scroll-target="#wua-selection"><span class="header-section-number">3.5</span> WUA selection</a></li>
-  <li><a href="#calculator" id="toc-calculator" class="nav-link" data-scroll-target="#calculator"><span class="header-section-number">3.6</span> Calculator</a></li>
+  <li><a href="#adding-removing-species" id="toc-adding-removing-species" class="nav-link" data-scroll-target="#adding-removing-species"><span class="header-section-number">3.5</span> Adding / Removing species</a></li>
+  <li><a href="#species-cards" id="toc-species-cards" class="nav-link" data-scroll-target="#species-cards"><span class="header-section-number">3.6</span> Species cards</a></li>
+  <li><a href="#life-process-tables" id="toc-life-process-tables" class="nav-link" data-scroll-target="#life-process-tables"><span class="header-section-number">3.7</span> Life process tables</a></li>
+  <li><a href="#wua-selection" id="toc-wua-selection" class="nav-link" data-scroll-target="#wua-selection"><span class="header-section-number">3.8</span> WUA selection</a></li>
+  <li><a href="#calculator" id="toc-calculator" class="nav-link" data-scroll-target="#calculator"><span class="header-section-number">3.9</span> Calculator</a></li>
   </ul>
 </nav>
     </div>
@@ -170,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/wizard1.png" class="img-fluid figure-img"></p>
-<figcaption>To use the wizard, click the Wizard button (top image). This will launch a complete step-by-step tour of the app (bottom image).</figcaption>
+<figcaption><strong>Wizard.</strong> To use the wizard, click the Wizard button (top image). This will launch a complete step-by-step tour of the app (bottom image).</figcaption>
 </figure>
 </div>
 </section>
@@ -187,7 +190,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Note: The application is designed for use on computers with relatively large screens. It has not been optimized for smaller devices or media.</p>
+<p>The application is designed for use on computers with relatively large screens. It has not been optimized for smaller devices or media.</p>
 </div>
 </div>
 <p>The main page of the application is divided into four interactive sections, each corresponding to a step in the workflow. At startup, only the first section is visible. The remaining three sections will become available after selecting a waterbody.</p>
@@ -219,33 +222,75 @@ The right panel displays the main outputs and allows users to refine their selec
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/start1.png" class="img-fluid figure-img"></p>
-<figcaption>Main page at startup. 1. Navigation Bar; 2. Top-Right Buttons; 3. Left Panel; Right Panel.</figcaption>
+<figcaption><strong>Main page at startup.</strong> 1. Navigation Bar; 2. Top-Right Buttons; 3. Left Panel; 4. Right Panel.</figcaption>
 </figure>
 </div>
 </section>
-<section id="water-body-selection" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="water-body-selection"><span class="header-section-number">3.3</span> Water body selection</h2>
-<p>On the left you see the current section ‘Waterbody’ selection. This section is the first of the fourth section you will navihat througr. It</p>
-<section id="lake" class="level3" data-number="3.3.1">
-<h3 data-number="3.3.1" class="anchored" data-anchor-id="lake"><span class="header-section-number">3.3.1</span> Lake</h3>
-</section>
-<section id="river" class="level3" data-number="3.3.2">
-<h3 data-number="3.3.2" class="anchored" data-anchor-id="river"><span class="header-section-number">3.3.2</span> River</h3>
-</section>
-<section id="pin" class="level3" data-number="3.3.3">
-<h3 data-number="3.3.3" class="anchored" data-anchor-id="pin"><span class="header-section-number">3.3.3</span> Pin</h3>
-</section>
+<section id="waterbody-selection" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="waterbody-selection"><span class="header-section-number">3.3</span> Waterbody selection</h2>
+<p>The first section allows the user to define the <strong>context</strong> in which the impact of a timing window is being investigated. It includes three main components:</p>
+<ul>
+<li><p><strong>Selection</strong>: Users can choose from three selection types — <strong>Lakes</strong>, <strong>Rivers</strong>, or <strong>Drop a Pin on the Map</strong>. Once a type is selected, the map on the right will update accordingly and become interactive.</p></li>
+<li><p><strong>Map</strong>: The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the <strong>province</strong>, which is used to pre-fill the status quo field in the final section.</p></li>
+<li><p><strong>Output</strong>: A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure ‘Examples of Waterbody Selection Types’).</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/wb_slc.png" class="img-fluid figure-img"></p>
+<figcaption><strong>Waterbody selection.</strong> 1. Selection; 2. Map; 3. Output.</figcaption>
+</figure>
+</div>
+<p>This first section serves as the entry point to the Timing Windows Calculator. It allows users to select lakes or rivers for which fish species have been recorded; these species will be loaded in the next section.</p>
+<p>Note that the “Selection Options” accordion can be used to limit the number of species pre-filled in the next step. This is especially useful for lakes where a large number of species have been documented.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Light gray markers represent waterbodies where fish species have been observed, while dark gray markers indicate waterbodies with no direct species observations. For these, species are inferred based on presence within the surrounding watershed. If a point is used, species will be manually added (see next section).</p>
+</div>
+</div>
+<p>Finally, at the bottom left of the section, there are two buttons:<br>
+* “Clear Selection”: Removes the current selection.<br>
+* “Reset View”: Resets the map view to display all of Canada.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/wb_slc_type.png" class="img-fluid figure-img"></p>
+<figcaption><strong>Examples of waterbody selection types.</strong> From left to right: selection of a lake, a river, and a manually dropped point. The point selection view on the right also includes the “Clear Selection” and “Reset View” buttons.</figcaption>
+</figure>
+</div>
 </section>
 <section id="species-selection" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="species-selection"><span class="header-section-number">3.4</span> Species selection</h2>
 </section>
-<section id="wua-selection" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="wua-selection"><span class="header-section-number">3.5</span> WUA selection</h2>
+<section id="adding-removing-species" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="adding-removing-species"><span class="header-section-number">3.5</span> Adding / Removing species</h2>
 </section>
-<section id="calculator" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="calculator"><span class="header-section-number">3.6</span> Calculator</h2>
+<section id="species-cards" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="species-cards"><span class="header-section-number">3.6</span> Species cards</h2>
+</section>
+<section id="life-process-tables" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="life-process-tables"><span class="header-section-number">3.7</span> Life process tables</h2>
+</section>
+<section id="wua-selection" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="wua-selection"><span class="header-section-number">3.8</span> WUA selection</h2>
+<p>Currently set to 1. editable.</p>
+</section>
+<section id="calculator" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="calculator"><span class="header-section-number">3.9</span> Calculator</h2>
+<section id="scores" class="level3" data-number="3.9.1">
+<h3 data-number="3.9.1" class="anchored" data-anchor-id="scores"><span class="header-section-number">3.9.1</span> Scores</h3>
+</section>
+<section id="options" class="level3" data-number="3.9.2">
+<h3 data-number="3.9.2" class="anchored" data-anchor-id="options"><span class="header-section-number">3.9.2</span> Options</h3>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

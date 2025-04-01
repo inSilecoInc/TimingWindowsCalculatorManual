@@ -84,7 +84,7 @@
     "href": "2_user_manual.html#tldr-the-wizard",
     "title": "3  User Manual",
     "section": "",
-    "text": "To use the wizard, click the Wizard button (top image). This will launch a complete step-by-step tour of the app (bottom image).",
+    "text": "Wizard. To use the wizard, click the Wizard button (top image). This will launch a complete step-by-step tour of the app (bottom image).",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]
@@ -94,17 +94,17 @@
     "href": "2_user_manual.html#starting-with-the-application",
     "title": "3  User Manual",
     "section": "3.2 Starting with the application",
-    "text": "3.2 Starting with the application\nWhen you start the application, a disclaimer will appear. After reading it, check the “OK” box to proceed to the main page of the app. The interface will look similar to the figure below.\n\n\n\n\n\n\nNote\n\n\n\nNote: The application is designed for use on computers with relatively large screens. It has not been optimized for smaller devices or media.\n\n\nThe main page of the application is divided into four interactive sections, each corresponding to a step in the workflow. At startup, only the first section is visible. The remaining three sections will become available after selecting a waterbody.\nWhen the application starts, the page you see includes four key components of the interface.\n\nNavigation Bar\nThe sticky navigation bar contains three links:\n\nHome: Directs to the main page, which includes the core application.\n\nAbout: Provides information about the project.\n\nDocumentation: Contains both the database documentation and this user manual.\n\nTop-Right Buttons\nLocated at the top-right of the navigation bar:\n\nScroll-to-top and scroll-to-bottom buttons for quick navigation.\n\nA button to launch the setup wizard (as described in the previous section).\n\nA Bookmark button (rightmost), which allows users to save the current state of the app. This feature is especially useful for developers when reporting or debugging issues.\n\nLeft Panel\nEach of the four sections of the application includes a left panel with input options for selection and computation. In the first section, this panel also includes a preview of the selected waterbody’s shape.\nRight Panel\nThe right panel displays the main outputs and allows users to refine their selections based on the displayed results.\n\n\n\n\nMain page at startup. 1. Navigation Bar; 2. Top-Right Buttons; 3. Left Panel; Right Panel.",
+    "text": "3.2 Starting with the application\nWhen you start the application, a disclaimer will appear. After reading it, check the “OK” box to proceed to the main page of the app. The interface will look similar to the figure below.\n\n\n\n\n\n\nNote\n\n\n\nThe application is designed for use on computers with relatively large screens. It has not been optimized for smaller devices or media.\n\n\nThe main page of the application is divided into four interactive sections, each corresponding to a step in the workflow. At startup, only the first section is visible. The remaining three sections will become available after selecting a waterbody.\nWhen the application starts, the page you see includes four key components of the interface.\n\nNavigation Bar\nThe sticky navigation bar contains three links:\n\nHome: Directs to the main page, which includes the core application.\n\nAbout: Provides information about the project.\n\nDocumentation: Contains both the database documentation and this user manual.\n\nTop-Right Buttons\nLocated at the top-right of the navigation bar:\n\nScroll-to-top and scroll-to-bottom buttons for quick navigation.\n\nA button to launch the setup wizard (as described in the previous section).\n\nA Bookmark button (rightmost), which allows users to save the current state of the app. This feature is especially useful for developers when reporting or debugging issues.\n\nLeft Panel\nEach of the four sections of the application includes a left panel with input options for selection and computation. In the first section, this panel also includes a preview of the selected waterbody’s shape.\nRight Panel\nThe right panel displays the main outputs and allows users to refine their selections based on the displayed results.\n\n\n\n\nMain page at startup. 1. Navigation Bar; 2. Top-Right Buttons; 3. Left Panel; 4. Right Panel.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]
   },
   {
-    "objectID": "2_user_manual.html#water-body-selection",
-    "href": "2_user_manual.html#water-body-selection",
+    "objectID": "2_user_manual.html#waterbody-selection",
+    "href": "2_user_manual.html#waterbody-selection",
     "title": "3  User Manual",
-    "section": "3.3 Water body selection",
-    "text": "3.3 Water body selection\nOn the left you see the current section ‘Waterbody’ selection. This section is the first of the fourth section you will navihat througr. It\n\n3.3.1 Lake\n\n\n3.3.2 River\n\n\n3.3.3 Pin",
+    "section": "3.3 Waterbody selection",
+    "text": "3.3 Waterbody selection\nThe first section allows the user to define the context in which the impact of a timing window is being investigated. It includes three main components:\n\nSelection: Users can choose from three selection types — Lakes, Rivers, or Drop a Pin on the Map. Once a type is selected, the map on the right will update accordingly and become interactive.\nMap: The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the province, which is used to pre-fill the status quo field in the final section.\nOutput: A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure ‘Examples of Waterbody Selection Types’).\n\n\n\n\nWaterbody selection. 1. Selection; 2. Map; 3. Output.\n\n\nThis first section serves as the entry point to the Timing Windows Calculator. It allows users to select lakes or rivers for which fish species have been recorded; these species will be loaded in the next section.\nNote that the “Selection Options” accordion can be used to limit the number of species pre-filled in the next step. This is especially useful for lakes where a large number of species have been documented.\n\n\n\n\n\n\nNote\n\n\n\nLight gray markers represent waterbodies where fish species have been observed, while dark gray markers indicate waterbodies with no direct species observations. For these, species are inferred based on presence within the surrounding watershed. If a point is used, species will be manually added (see next section).\n\n\nFinally, at the bottom left of the section, there are two buttons:\n* “Clear Selection”: Removes the current selection.\n* “Reset View”: Resets the map view to display all of Canada.\n\n\n\nExamples of waterbody selection types. From left to right: selection of a lake, a river, and a manually dropped point. The point selection view on the right also includes the “Clear Selection” and “Reset View” buttons.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]
@@ -120,11 +120,41 @@
     ]
   },
   {
+    "objectID": "2_user_manual.html#adding-removing-species",
+    "href": "2_user_manual.html#adding-removing-species",
+    "title": "3  User Manual",
+    "section": "3.5 Adding / Removing species",
+    "text": "3.5 Adding / Removing species",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
+    "objectID": "2_user_manual.html#species-cards",
+    "href": "2_user_manual.html#species-cards",
+    "title": "3  User Manual",
+    "section": "3.6 Species cards",
+    "text": "3.6 Species cards",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
+    "objectID": "2_user_manual.html#life-process-tables",
+    "href": "2_user_manual.html#life-process-tables",
+    "title": "3  User Manual",
+    "section": "3.7 Life process tables",
+    "text": "3.7 Life process tables",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
+    ]
+  },
+  {
     "objectID": "2_user_manual.html#wua-selection",
     "href": "2_user_manual.html#wua-selection",
     "title": "3  User Manual",
-    "section": "3.5 WUA selection",
-    "text": "3.5 WUA selection",
+    "section": "3.8 WUA selection",
+    "text": "3.8 WUA selection\nCurrently set to 1. editable.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]
@@ -133,8 +163,8 @@
     "objectID": "2_user_manual.html#calculator",
     "href": "2_user_manual.html#calculator",
     "title": "3  User Manual",
-    "section": "3.6 Calculator",
-    "text": "3.6 Calculator",
+    "section": "3.9 Calculator",
+    "text": "3.9 Calculator\n\n3.9.1 Scores\n\n\n3.9.2 Options",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>User Manual</span>"
     ]

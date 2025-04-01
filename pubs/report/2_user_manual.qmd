@@ -7,7 +7,7 @@ title: "User Manual"
 
 If consulting the manual feels cumbersome, you may use the 'Wizard' button to initiate a guided tour of the app. The tour begins with the selection of a lake Nipissing and then leads you through the various sections of the application. Use the `Previous` and `Next` buttons (shown below) to navigate through the tour. To exit the tour at any time, press the `Esc` key.
 
-![To use the wizard, click the Wizard button (top image). This will launch a complete step-by-step tour of the app (bottom image).](img/wizard1.png)
+![**Wizard.** To use the wizard, click the Wizard button (top image). This will launch a complete step-by-step tour of the app (bottom image).](img/wizard1.png)
 
 
 ## Starting with the application
@@ -15,7 +15,7 @@ If consulting the manual feels cumbersome, you may use the 'Wizard' button to in
 When you start the application, a disclaimer will appear. After reading it, check the "OK" box to proceed to the main page of the app. The interface will look similar to the figure below.
 
 ::: {.callout-note}
-Note: The application is designed for use on computers with relatively large screens. It has not been optimized for smaller devices or media.
+The application is designed for use on computers with relatively large screens. It has not been optimized for smaller devices or media.
 :::
 
 The main page of the application is divided into four interactive sections, each corresponding to a step in the workflow. At startup, only the first section is visible. The remaining three sections will become available after selecting a waterbody.
@@ -41,30 +41,66 @@ When the application starts, the page you see includes four key components of th
    The right panel displays the main outputs and allows users to refine their selections based on the displayed results.
 
 
-
-![Main page at startup. 1. Navigation Bar; 2. Top-Right Buttons; 3. Left Panel; Right Panel.](img/start1.png)
-
+![**Main page at startup.** 1. Navigation Bar; 2. Top-Right Buttons; 3. Left Panel; 4. Right Panel.](img/start1.png)
 
 
-## Water body selection 
+
+## Waterbody selection 
+
+The first section allows the user to define the **context** in which the impact of a timing window is being investigated. It includes three main components:
+
+- **Selection**: Users can choose from three selection types — **Lakes**, **Rivers**, or **Drop a Pin on the Map**. Once a type is selected, the map on the right will update accordingly and become interactive.
+
+- **Map**: The map is used to locate a specific lake or river, or to manually place a point that defines the study context. This selection also determines the **province**, which is used to pre-fill the status quo field in the final section.
+
+- **Output**: A visual representation of the selected waterbody (or province, in the case of a dropped point) appears on the left, along with several key characteristics (see Figure 'Examples of Waterbody Selection Types').
 
 
-On the left you see the current section 'Waterbody' selection. This section is the first of the fourth section you will navihat througr. It 
+![**Waterbody selection.** 1. Selection; 2. Map; 3. Output.](img/wb_slc.png)
 
 
-### Lake 
+This first section serves as the entry point to the Timing Windows Calculator. It allows users to select lakes or rivers for which fish species have been recorded; these species will be loaded in the next section.
+
+Note that the "Selection Options" accordion can be used to limit the number of species pre-filled in the next step. This is especially useful for lakes where a large number of species have been documented. 
+
+::: {.callout-note}
+Light gray markers represent waterbodies where fish species have been observed, while dark gray markers indicate waterbodies with no direct species observations. For these, species are inferred based on presence within the surrounding watershed. If a point is used, species will be manually added (see next section).
+:::
 
 
-### River 
+Finally, at the bottom left of the section, there are two buttons:   
+* "Clear Selection": Removes the current selection.  
+* "Reset View": Resets the map view to display all of Canada. 
 
 
-### Pin 
+![**Examples of waterbody selection types.** From left to right: selection of a lake, a river, and a manually dropped point. The point selection view on the right also includes the "Clear Selection" and "Reset View" buttons.](img/wb_slc_type.png)
+
 
 
 
 ## Species selection 
 
+
+## Adding / Removing species 
+
+
+## Species cards 
+
+
+## Life process tables 
+
+
+
 ## WUA selection 
+
+Currently set to 1. editable.
+
 
 
 ## Calculator  
+
+
+### Scores 
+
+
+### Options
